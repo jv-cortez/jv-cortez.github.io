@@ -1,3 +1,17 @@
 body {
     background: white;
 }
+
+aside {
+    font-family: Arial, Helvetica, sans-serif;
+    bottom:0;
+    left: 0; 
+    right: 0;    
+    top: 0;   
+    width: 290px;   
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;    
+    text-align: left;
+}
