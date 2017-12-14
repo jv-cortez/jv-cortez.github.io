@@ -3,6 +3,7 @@ body {
 }
 
 aside {
+    position: fixed;
     font-family: Arial, Helvetica, sans-serif;
     bottom:0;
     left: 0; 
