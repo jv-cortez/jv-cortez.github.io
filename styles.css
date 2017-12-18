@@ -27,32 +27,48 @@ aside h2 {
 #name {
     color: black;
     font-size: 1.25em;  
-    font-weight: normal;
+    font-weight: bold;
     text-decoration: none; 
     transition: all 0.25s ease;    
 }
 
 #name:hover {
     color: rebeccapurple; 
-    font-weight: bold;
+    font-weight: bolder;
 }
 aside p {
     font-size: .75em;
-    font-weight: bold;     
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+    
 }
 aside b {
     color: rebeccapurple;
+    font-family: 'Roboto Condensed', sans-serif;    
     font-weight: bold; 
     font-size: 1.20em;
 }
 
 aside a {
-    font-size: .7em;
+    font-size: .85em;
+    line-height: 30px;
+    text-decoration: none; color: black;
+    transition: all 0.25s ease;        
+}
+
+aside a:hover {
+    color: rebeccapurple; 
+    font-weight: bolder;
 }
 
 h1 span {
     font-size: 0.7em; 
     font-weight: normal;
+}
+
+#aside-ftr {
+    font-weight:bold;
+    font-size: .7em;
 }
 
 /* main css */
@@ -71,6 +87,7 @@ section h2 {
 
 section p {
     font-family: 'Roboto', sans-serif;
+    line-height: 20px;
 }
 
 li {
