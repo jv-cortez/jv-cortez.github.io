@@ -17,6 +17,16 @@ aside {
     margin: 10px 30px auto;
 }
 
+aside header {
+    width: 150px;
+}
+
+aside header img {
+    border-radius: 100px;
+    border: 1px solid black;
+    transition: all 0.5s ease;
+}
+
 aside h1 {
     margin-bottom: 25px;
 }
@@ -80,6 +90,10 @@ section {
     text-align: left;
 }
 
+img {
+    width: 99.5%;
+}
+
 section h2 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bolder;
@@ -94,6 +108,12 @@ li {
     font-family: 'Roboto', sans-serif;
     line-height: 30px;
 }
+
+table {
+    visibility: hidden;
+    /* position: absolute; */
+}
+
 /* footer CSS */
 footer {
     text-align: center;

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
+    <!-- jquery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
+	<script type="text/javascript" language="javascript" src="app.js"></script>
     <!-- styles -->
     <link rel="stylesheet" href="styles.css">
     <!-- Google Fonts -->
@@ -18,6 +21,7 @@
 </head>
 <body>
     <aside class="sidebar">
+        <header><img src="images/portrait.jpg" alt="a picture of Victor Cortez"></header>
         <h1> 
             <a id="name" href="https://www.linkedin.com/in/jv-cortez/">Victor Cortez</a> 
             <br> <span>Junior Web Developer </span></br>
@@ -41,9 +45,11 @@
 
         <p><b>Other</b><br>SPSS Statistics, InDesign (basic), Illustrator (basic), Photoshop (basic), Video Editing, Social Media (Hootsuite)</p>
 
-        <p><b>Spoken Languages</b><br>English, Filipino(Tagalog)</p>
-        <p id="aside-ftr">Made with ❤️&nbsp;&amp; ☕️</p>
-    </aside> 
+        <p><b>Spoken Languages</b><br>English, Filipino (Tagalog)</p>
+        <p id="aside-ftr">Made with ❤️ &nbsp;&amp; ☕️</p>
+    </aside>
+
+    <!-- Main Content  -->
     <main>
         <section class="summary">
             <h2>Summary</h2>
@@ -66,8 +72,33 @@
                         <br> <em>Graduated in August 2017</em>
                         <p>Received a Diploma in Web Development after completing an intensive full-stack Web Development bootcamp with over 500 hours of on-hand and theoretical programming classes. The bootcamp included JavaScript, Ruby, Rails, React, PostgresSQL and more.</p>
                     </li>
+                    <ul>
+                        <li>
+                            <section>
+                                <header class="dropdown">Projects</header> 
+                                    <table>
+                                        <tr>
+                                            <td><a href="https://github.com/yowiputra/BuddyUp"><img src="images/splashpage.png" alt="BuddyUp home page"></a></td>
+                                            <td><p>Lighthouse Labs Final Project - A game match-making web application built on React, Redux, PostgreSQL, Express, Socket.io and Node.js. Meant as a better automatch-making system than an online game's default matching system, this web app uses a Tinder-style approach in pairing up players based on their desired skill-level of their match.</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="https://github.com/howareyouhelen/PollStar"><img src="images/homepage.png" alt="PollStar home page"></a></td>
+                                            <td><p>Lighthouse Labs Midterm Project - </p></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="https://github.com/jv-cortez/chattyapp"><img src="images/chatfunctionsWithusercount.png" alt="Chatty App with Chat"></a></td>
+                                            <td><p>Slack Clone</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="https://github.com/jv-cortez/tweetr"><img src="images/tweeter-textbox.png" alt="Tweeter App"></a></td>
+                                            <td><p>Twitter Clone</p></td>
+                                        </tr>
+                                    </table>
+                            </section>
+                        </li>
+                    </ul>
                     <li>Study Abroad - University of Central Lancashire 
-                        <br><em>January 2016 - May 2016</em>
+                        <br><em>January 2016 to May 2016</em>
                         <p>Took part in the KPU Study Abroad Program (Exchange Semester Spring 2016) in Preston, Lancashire, United Kingdom. Awarded Irving K. Barber One World International Scholarship to go towards the expenses of the Exchange Semester.</p>
                     </li>
                     <li>Bachelor of Arts in Sociology - Kwantlen Polytechnic University
