@@ -110,9 +110,23 @@ li {
 }
 
 table {
+    display: none;
+    margin-bottom: 10px;
     visibility: hidden;
-    /* position: absolute; */
+    position: absolute;
 }
+
+td p {
+    margin-left: 40px;
+}
+.dropdown {
+    display: block;
+    visibility: visible;
+    position: static;
+    list-style: disc;
+}
+
+
 
 /* footer CSS */
 footer {

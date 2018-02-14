@@ -1,14 +1,10 @@
 $(function() {
   
-  $("header.dropdown").hover(function() {
+  $("header").click(function() {
 
-    $(this).addClass("hover");
-    $('table',this).css('visibility', 'visible').css('position', 'absolute');
+    $(this).toggleClass("dropdown");
+    $("table").toggleClass("dropdown");
+    $("ul.projectsBullet").toggleClass("dropdown");
 
-  }, function() {
-
-    $(this).removeClass("hover");
-    $('table',this).css('visibility', 'hidden').css('position','absolute');
-
-  });  
+  })
 });
