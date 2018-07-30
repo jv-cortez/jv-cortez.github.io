@@ -166,3 +166,17 @@ td p {
 footer {
     text-align: center;
 }
+
+@media (max-width:900px) {
+    .sidebar {
+        display: none;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    .projectsBullet {
+        display: none;
+    }
+}
