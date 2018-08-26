@@ -8,7 +8,7 @@ body {
 
 a {
     text-decoration: none;
-    color: rebeccapurple;
+    color: black;
 }
 
 @media (min-width:901px) {
@@ -50,7 +50,7 @@ a {
     }
 
     #name:hover {
-        color: black; 
+        color: rebeccapurple; 
         font-weight: bolder;
     }
 
@@ -76,7 +76,6 @@ a {
     aside a:hover {
         color: rebeccapurple; 
         font-weight: bold;
-        text-decoration: none;
     }
 
     h1 span {
@@ -98,7 +97,6 @@ a {
         cursor: pointer;
         color: rebeccapurple;
         font-weight: bolder;
-        text-decoration: underline;
     }
 
     section {    
@@ -165,7 +163,6 @@ a {
         cursor: pointer;
         color: rebeccapurple;
         font-weight: bolder;
-        text-decoration: underline;
     }
 
     /* footer CSS */
