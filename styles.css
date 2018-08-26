@@ -47,7 +47,7 @@ a:hover {
     }
     #name {
         color: black;
-        font-size: 1.25em;  
+        font-size: 1.20em;  
         font-weight: bold;
         text-decoration: none; 
         transition: all 0.25s ease;    
