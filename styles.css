@@ -8,7 +8,11 @@ body {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rebeccapurple;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 @media (min-width:901px) {
@@ -21,7 +25,7 @@ a {
         right: 0;    
         top: 0;   
         width: 200px;   
-        margin: 10px 30px auto;
+        margin: 20px 50px;
     }
 
     aside header {
@@ -76,6 +80,7 @@ a {
     aside a:hover {
         color: rebeccapurple; 
         font-weight: bold;
+        text-decoration: none;
     }
 
     h1 span {
@@ -89,6 +94,9 @@ a {
     }
 
     /* main css */
+    main {
+        max-width: 700px;
+    }
     main, footer {
         margin: 55px 100px 10px 250px;
     }
@@ -149,6 +157,7 @@ a {
         list-style: none;
         
     }
+
     .dropdownHeader::before {
         content: "\f105";
         color: rebeccapurple;
@@ -163,6 +172,7 @@ a {
         cursor: pointer;
         color: rebeccapurple;
         font-weight: bolder;
+        text-decoration: underline;
     }
 
     /* footer CSS */
